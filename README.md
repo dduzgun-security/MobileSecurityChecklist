@@ -36,3 +36,9 @@ read/write permissions inside the AndroidManifest.xml
 #### Sensible data in screenshots
 - [ ] Explicitly disabled screenshots in the activities/pages/layouts that shows sensitive data by setting FLAG_SECURE to the layout.
 
+#### Cryptographic API
+- [ ] Do not create your own cryptographic algorithm
+- [ ] Verify that the configuration of cryptographic algorithms used are aligned with best practices from NIST and BSI
+- [ ] Do not use insecure java.util.Random for sensible data
+
+#### Communication and networking

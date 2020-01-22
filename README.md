@@ -6,6 +6,7 @@
 - [ ] Use KeyStore to encrypt sensitive data using keys provided by AndroidKeyStore. The app should use a public key to create a new private/public key pair for encrypting application secrets. And it can decrypt it with the private key. https://medium.com/@ericfu/securely-storing-secrets-in-an-android-application-501f030ae5a3 
 - [ ] Protect access to KeyStore with user authentication on lock screen (PIN, password, fingerprint, ...) if the secure lock screen is disabled, the stored secrets becomes permanently invalid.
 - [ ] Give a limited authorization time to the keys in the KeyStore (allowed only when screen lock is enabled, otherwise permanently remove access to keys)
+- [ ] Validate that the clients device offers secure hardware backed keystore by validating KeyInfo.isInsideSecureHardware()
 - [ ] Data validation when reading from the storage
 - [ ] Data signature validation when reading from the storage (cryptographic controls such as HMAC to ensure data correctness)
 - [ ] Data sanitization when reading from the storage

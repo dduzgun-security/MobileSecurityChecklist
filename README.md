@@ -1,4 +1,4 @@
-## Mobile security checklist
+## Mobile security checklist 
 
 **Table of Contents**
 <!--ts-->
